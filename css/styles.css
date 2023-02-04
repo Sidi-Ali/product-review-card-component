@@ -1,0 +1,147 @@
+body{
+  /* background-color: #FDFAF6; */
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1{
+  font-family: 'Fraunces', serif;
+  font-size: 2.2rem;
+}
+
+h4{
+  /* font-family: 'Lexend Tera', sans-serif; */
+  /* font-family: 'Lexend Zetta', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  color: #7F8487;
+  font-weight: normal;
+}
+
+.container{
+  margin:20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.imgs{
+  width:100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+}
+
+.mob_content{
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding: 30px;
+
+}
+
+.discr{
+  color: #7F8487;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.buyButton{
+  width: 100%;
+  height: 48px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background-color:#3F7B70;
+  border-radius: 10px;
+  border: none;
+}
+
+.buyButton:hover{
+  background: #7FB77E;
+  background-image: -webkit-linear-gradient(top, #7FB77E, #265A5C);
+  background-image: -moz-linear-gradient(top, #7FB77E, #265A5C);
+  background-image: -ms-linear-gradient(top, #7FB77E, #265A5C);
+  background-image: -o-linear-gradient(top, #7FB77E, #265A5C);
+  background-image: linear-gradient(to bottom, #7FB77E, #265A5C);
+  text-decoration: none;
+}
+
+.price{
+  font-family: 'Fraunces', serif;
+  color: #3F7B70;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.crossed_price{
+  color: #7F8487;
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ps{
+  display: flex;
+  align-items: center;
+}
+
+.cart-img{
+  margin-right: 10px;
+}
+
+.attribution{
+  color: #7F8487;
+  width: 40%;
+  margin: 10px auto ;
+  text-align: center;
+  font-size: 12px;
+}
+
+.mentor{
+  text-decoration:none;
+  font-weight: bolder;
+  color: #5F6769;
+}
+
+.mentor:hover{
+  color: #161D6F;
+  text-decoration:underline;
+}
+
+@media screen and (min-width:437px) and (max-width:516px){
+  .container{
+    margin: 50px;
+  }
+}
+
+@media screen and (min-width: 516px){
+  .container{
+    flex-direction: row;
+    justify-content: center;
+    margin: 200px auto 50px;
+    width: 39em;
+  }
+
+  .mob_content{
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    box-sizing: border-box;
+  }
+
+  .gimgs{
+    width: 50%;
+  }
+
+  .imgs{
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+ }
+
+  .ps{
+    flex-wrap: wrap;
+  }
+
+  .attribution{
+    line-height: 0.2;
+  }
+
+}
