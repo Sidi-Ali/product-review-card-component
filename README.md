@@ -32,11 +32,11 @@ Users should be able to:
 
 Below is a screenshot of the desktop version of my solution.
 
-![](images/image-product-desktop.jpg)
+![](images/product-desktop.png)
 
 Below is a screenshot of the mobile version of my solution.
 
-![](images/image-product-mobile.jpg)
+![](images/product-mobile.png)
 
 ### Links
 
